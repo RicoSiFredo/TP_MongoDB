@@ -18,6 +18,14 @@ function App() {
           Learn React
         </a>
       </header>
+
+
+      <footer>
+        <p>Le degrés d'importance que l'on peut accorder à ce jeu de donnée est relativement faible.
+Il y a deux raisons principales à cela, d'abord les étudiants n'ont pas répondu forcément de façon sincère.
+Egalement, le nombre de personnes sollicités par ce sondage est vraiment trop faible pour en tirer des conclusions statistiques.</p>
+      </footer>
+
     </div>
   );
 }
