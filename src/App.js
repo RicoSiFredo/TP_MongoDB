@@ -3,6 +3,7 @@ import './App.css';
 import { SatisfiaComponent } from './SatisfiaComponent';
 import { TestComponent } from './TestComponent';
 import { TimeComponent } from './RowComponent';
+import {FiliereCompononent} from './FiliereComponent';
 
 function App() {
   return (
@@ -18,12 +19,9 @@ function App() {
       <p>Balzeau Théo && Barnier--Cinel Eric</p>
 
       <TestComponent />
-      
-
       <SatisfiaComponent />
-
-
       <TimeComponent />
+      <FiliereCompononent />
 
     <div>
       <p>Le degrés d'importance que l'on peut accorder à ce jeu de donnée est relativement faible.
