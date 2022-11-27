@@ -16,7 +16,7 @@ export const TestComponent = ()=>{
         console.log(data)
         
         content = <div>
-                <h2>Proportion de personne ayant coché la case ceci n'est pas un test</h2>
+                <h2>Proportion de personne ayant coché la case 'ceci n'est pas un test'</h2>
                 <div  
                     style={{
                     display: "flex",

@@ -14,11 +14,14 @@ function App() {
       }}
     >
       <h1>TP MONGO DB</h1>
-
-      <SatisfiaComponent />
+      <p>Balzeau Théo && Barnier--Cinel Eric</p>
 
       <TestComponent />
       
+
+      <SatisfiaComponent />
+
+
       
 
     <div>
