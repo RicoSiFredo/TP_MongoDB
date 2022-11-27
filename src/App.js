@@ -4,8 +4,15 @@ import { SatisfiaComponent } from './SatisfiaComponent';
 
 function App() {
   return (
-    <div>
-      <p>TP MONGO DB</p>
+    <div
+      style={{
+        margin: '1rem',
+        display: 'flex',
+        flexDirection: 'column',
+        gap: '1rem',
+      }}
+    >
+      <h1>TP MONGO DB</h1>
       <SatisfiaComponent />
     </div> 
   );
