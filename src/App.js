@@ -4,6 +4,7 @@ import { SatisfiaComponent } from './SatisfiaComponent';
 import { TestComponent } from './TestComponent';
 import { TimeComponent } from './RowComponent';
 import {FiliereCompononent} from './FiliereComponent';
+import {CarComp} from './CarComponent';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
       <SatisfiaComponent />
       <TimeComponent />
       <FiliereCompononent />
+      <CarComp/>
 
     <div>
       <p>Le degrés d'importance que l'on peut accorder à ce jeu de donnée est relativement faible.

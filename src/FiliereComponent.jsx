@@ -29,7 +29,7 @@ export const FiliereCompononent = ()=>{
                         gap: "1rem",
                         paddingLeft: "1rem",
                     }}
-                    >
+                    >   
                         <h3>{elem._id}</h3>
                         <p>{elem.value}</p>
                         
