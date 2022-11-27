@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import { SatisfiaComponent } from './SatisfiaComponent';
+import { TestComponent } from './TestComponent';
 
 function App() {
   return (
@@ -13,7 +14,18 @@ function App() {
       }}
     >
       <h1>TP MONGO DB</h1>
+
       <SatisfiaComponent />
+
+      <TestComponent />
+      
+      
+
+    <div>
+      <p>Le degrés d'importance que l'on peut accorder à ce jeu de donnée est relativement faible.
+Il y a deux raisons principales à cela, d'abord les étudiants n'ont pas répondu forcément de façon sincère.
+Egalement, le nombre de personnes sollicités par ce sondage est vraiment trop faible pour en tirer des conclusions statistiques.</p>
+    </div>
     </div> 
   );
 }

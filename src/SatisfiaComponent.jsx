@@ -35,7 +35,6 @@ export const SatisfiaComponent = ()=>{
                 }}
             >
                 {data.map((elem, index)=>{
-                    console.log(elem)
                     return <div 
                         key={index}
                         style={{
@@ -74,7 +73,7 @@ export const SatisfiaComponent = ()=>{
                 }}
             >
                 {data.map((elem, index)=>{
-                    console.log(elem)
+                    
                     return <div 
                         key={index}
                         style={{
