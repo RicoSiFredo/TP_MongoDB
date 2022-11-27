@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import { SatisfiaComponent } from './SatisfiaComponent';
 import { TestComponent } from './TestComponent';
+import { TimeComponent } from './RowComponent';
 
 function App() {
   return (
@@ -22,7 +23,7 @@ function App() {
       <SatisfiaComponent />
 
 
-      
+      <TimeComponent />
 
     <div>
       <p>Le degrés d'importance que l'on peut accorder à ce jeu de donnée est relativement faible.
