@@ -57,7 +57,7 @@ export const SatisfiaComponent = ()=>{
                     </div>
                 })}
             </div>
-            <h5>Donnée : {sum} mode de transport renseigné par l'enquête.</h5>
+            <h5>Base : {sum} éléments</h5>
             <h2>
                 Transport par taux de satisfaction
 
@@ -96,7 +96,7 @@ export const SatisfiaComponent = ()=>{
                     </div>
                 })}
             </div>
-            <h5>Donnée : {sum} mode de transport renseigné par l'enquête.</h5>
+            <h5>Base : {sum} éléments</h5>
         </div>
     }
     else{
